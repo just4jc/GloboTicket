@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\G\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  G:\My Drive\Courses\Singapore Polytechnic\ST0504 MAD - Mobile Application Development\node_modules\.bin;G:\My Drive\Courses\Singapore Polytechnic\node_modules\.bin;G:\My Drive\Courses\node_modules\.bin;G:\My Drive\node_modules\.bin;G:\node_modules\.bin;C:\Users\G\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Cloud Foundry;C:\Program Files\MicroStrategy\MicroStrategy Desktop\DataServices\180_77\64-bit\bin\server;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\ProgramData\Anaconda3\python.exe;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\G\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\OpenMono\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Users\G\Anaconda3;C:\Users\G\Anaconda3\Library\mingw-w64\bin;C:\Users\G\Anaconda3\Library\usr\bin;C:\Users\G\Anaconda3\Library\bin;C:\Users\G\Anaconda3\Scripts;C:\ProgramData\Anaconda3\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Microsoft VS Code\bin;C:\Users\G\AppData\;C:\Users\G\.dotnet\;C:\Users\G\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\G\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.6
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'G:\My Drive\Courses\Singapore Polytechnic\ST0504 MAD - Mobile Application Development\Globoticket\node_modules\@babel'
+
+npm manifest: 
+  {
+    "name": "globoticket",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "react": "17.0.2",
+      "react-native": "0.65.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@babel/runtime": "^7.12.5",
+      "@react-native-community/eslint-config": "^2.0.0",
+      "babel-jest": "^26.6.3",
+      "eslint": "7.14.0",
+      "jest": "^26.6.3",
+      "metro-react-native-babel-preset": "^0.66.0",
+      "react-native-codegen": "^0.0.7",
+      "react-test-renderer": "17.0.2"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
